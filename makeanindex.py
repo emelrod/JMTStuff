@@ -14,7 +14,7 @@ if os.path.exists(THUMB_DIR):
     print(f"Found {len(files)} images in thumbnails folder.")
     
     rows_html = ""
-    for index, file in enumerate(files, start=1):
+    for index, file in enumerate(files, start=5):
         rows_html += f"""
         <tr>
             <td>{index}</td>
